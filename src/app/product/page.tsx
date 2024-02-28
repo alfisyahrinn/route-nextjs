@@ -34,7 +34,7 @@ export default function Product() {
           <div className="card-body">
             <h1>{item.title}</h1>
             <h5 className="card-text">Rp. {item.price}</h5>
-            <Link href={`/product/${item.id}`}  className="btn btn-primary">
+            <Link data-test='link' href={`/product/${item.id}`}  className="btn btn-primary">
               <TbMoneybag /> Beli
             </Link>
           </div>
