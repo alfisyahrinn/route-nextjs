@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function Register() {
   return (
@@ -15,7 +14,7 @@ export default function Register() {
             placeholder="Enter email"
           />
           <small id="emailHelp" className="form-text text-muted">
-            We'll never share your email with anyone else.
+            We&apos;ll never share your email with anyone else.
           </small>
         </div>
         <div className="form-group">
@@ -28,7 +27,7 @@ export default function Register() {
             placeholder="Enter email"
           />
           <small id="emailHelp" className="form-text text-muted">
-            We'll never share your email with anyone else.
+            We&apos;ll never share your email with anyone else.
           </small>
         </div>
         <div className="form-group">
